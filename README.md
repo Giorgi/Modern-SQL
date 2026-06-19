@@ -1,6 +1,6 @@
 # Modern SQL — Sample Queries
 
-Sample SQL extracted from the talk **"JOIN 'My Session' ON Modern = 'SQL'"**.
+Sample SQL for the **"JOIN 'My Session' ON Modern = 'SQL'"** talk.
 
 Unless noted, queries target **PostgreSQL**. The temporal examples are
 **SQL Server (T-SQL)**, and the graph examples are **SQL/PGQ** that requires **PostgreSQL 19**.
