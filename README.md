@@ -3,7 +3,7 @@
 Sample SQL for the **"JOIN 'My Session' ON Modern = 'SQL'"** talk.
 
 Unless noted, queries target **PostgreSQL**. The temporal examples are
-**SQL Server (T-SQL)**, and the graph examples are **SQL/PGQ** that requires **PostgreSQL 19**.
+**SQL Server (T-SQL)**, and the graph examples are **SQL/PGQ** that requires [**PostgreSQL 19**.](https://www.postgresql.org/about/news/postgresql-19-beta-1-released-3313/)
 
 ## Topics
 
