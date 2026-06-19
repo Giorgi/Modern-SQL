@@ -1,7 +1,7 @@
 -- The "before": a correlated subquery returns one column, so you copy-paste
 -- it once per field -- three scans of orders for the same latest row.
 -- Dialect: PostgreSQL
--- Source: Section 1 (CTEs & LATERAL) -- anti-pattern, contrast for LATERAL
+-- Source: Section 2 (LATERAL) -- anti-pattern, contrast for LATERAL
 
 SELECT c.name,
   (SELECT o.ordered_at FROM orders o

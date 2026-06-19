@@ -1,7 +1,7 @@
 -- Top-N per group: a window can't go in WHERE (it's computed after WHERE),
 -- so wrap it in a subquery and filter outside.
 -- Dialect: PostgreSQL
--- Source: Section 2 (Window functions)
+-- Source: Section 3 (Window functions)
 
 SELECT customer_id, ordered_at, amount, rn
 FROM (

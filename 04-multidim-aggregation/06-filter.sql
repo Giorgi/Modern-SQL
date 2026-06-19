@@ -1,7 +1,7 @@
 -- FILTER: conditional aggregates without CASE gymnastics -- a WHERE clause
 -- per aggregate, many conditional totals in one pass.
 -- Dialect: PostgreSQL
--- Source: Section 3 (Multi-dimensional aggregation)
+-- Source: Section 4 (Multi-dimensional aggregation)
 
 SELECT region,
   SUM(amount)                                     AS total,

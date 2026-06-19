@@ -1,7 +1,7 @@
 -- Time travel with FOR SYSTEM_TIME: full history, a point-in-time snapshot,
 -- and every version active during a window.
 -- Dialect: SQL Server (T-SQL)
--- Source: Section 5 (Temporal / time travel)
+-- Source: Section 6 (Temporal / time travel)
 
 -- the full lifecycle of one order: current + history, unioned for you
 SELECT status, quantity, amount, SysStart, SysEnd

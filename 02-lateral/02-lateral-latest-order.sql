@@ -1,7 +1,7 @@
 -- LATERAL: one subquery, many columns -- find the latest order once,
 -- return all its columns.
 -- Dialect: PostgreSQL
--- Source: Section 1 (CTEs & LATERAL)
+-- Source: Section 2 (LATERAL)
 
 SELECT c.name AS customer,
        latest.ordered_at, latest.amount, latest.status

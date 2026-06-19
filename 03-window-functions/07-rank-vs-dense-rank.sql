@@ -1,7 +1,7 @@
 -- Ties: ROW_NUMBER is always unique; RANK leaves a gap after a tie;
 -- DENSE_RANK does not.
 -- Dialect: PostgreSQL
--- Source: Section 2 (Window functions)
+-- Source: Section 3 (Window functions)
 
 SELECT amount,
        ROW_NUMBER() OVER (ORDER BY amount DESC) AS row_number,

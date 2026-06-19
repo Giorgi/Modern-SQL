@@ -1,7 +1,7 @@
 -- The "before": subtotals the way most of us do it -- three queries, three
 -- scans, stapled with UNION ALL.
 -- Dialect: PostgreSQL
--- Source: Section 3 (Multi-dimensional aggregation) -- anti-pattern
+-- Source: Section 4 (Multi-dimensional aggregation) -- anti-pattern
 -- (sales = orders JOIN customers JOIN products; see grouping_sets.sql for the CTE)
 
 SELECT region, category, SUM(amount) AS revenue

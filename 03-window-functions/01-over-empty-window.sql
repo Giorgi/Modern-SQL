@@ -1,7 +1,7 @@
 -- Empty OVER(): a plain aggregate folds rows; OVER() keeps every row and
 -- stamps the total on each.
 -- Dialect: PostgreSQL
--- Source: Section 2 (Window functions)
+-- Source: Section 3 (Window functions)
 
 -- Plain aggregate: 10 rows -> 1 row, detail gone
 SELECT SUM(amount) FROM orders;

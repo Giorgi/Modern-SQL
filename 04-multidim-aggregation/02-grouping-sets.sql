@@ -1,7 +1,7 @@
 -- GROUPING SETS: name exactly the groupings you want -- detail, subtotal and
 -- grand total in one scan.
 -- Dialect: PostgreSQL
--- Source: Section 3 (Multi-dimensional aggregation)
+-- Source: Section 4 (Multi-dimensional aggregation)
 
 WITH sales AS (
   SELECT cu.region, cat.name AS category,

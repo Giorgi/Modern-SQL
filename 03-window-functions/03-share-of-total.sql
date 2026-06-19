@@ -1,7 +1,7 @@
 -- Two windows in one query: each row's share of the grand total and of its
 -- customer's total -- no joins.
 -- Dialect: PostgreSQL
--- Source: Section 2 (Window functions)
+-- Source: Section 3 (Window functions)
 
 SELECT customer_id, amount,
        SUM(amount) OVER (PARTITION BY customer_id) AS customer_total,

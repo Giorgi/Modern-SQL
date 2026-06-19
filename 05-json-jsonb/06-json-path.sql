@@ -1,7 +1,7 @@
 -- SQL/JSON path (SQL:2016): a mini-query inside the value.
 --   $ root · .field key · [*] every element · ?( ... ) filter · @ the element
 -- Dialect: PostgreSQL
--- Source: Section 4 (JSON / JSONB)
+-- Source: Section 5 (JSON / JSONB)
 
 -- @? : does the path match ANY element? -> filter rows
 SELECT name FROM products

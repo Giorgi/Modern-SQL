@@ -1,6 +1,6 @@
 -- CTEs: name your steps, read top to bottom
 -- Dialect: PostgreSQL
--- Source: Section 1 (CTEs & LATERAL)
+-- Source: Section 1 (CTEs)
 
 WITH completed AS (
     SELECT * FROM orders WHERE status = 'completed'

@@ -1,6 +1,6 @@
 -- Search: containment @> (deep, GIN-indexable) and existence ? / ?| / ?&.
 -- Dialect: PostgreSQL
--- Source: Section 4 (JSON / JSONB)
+-- Source: Section 5 (JSON / JSONB)
 
 -- @>  : does specs CONTAIN this fragment?
 SELECT name FROM products

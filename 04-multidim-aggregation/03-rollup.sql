@@ -1,6 +1,6 @@
 -- ROLLUP: shorthand that peels right-to-left -- (a,b) -> (a) -> ().
 -- Dialect: PostgreSQL
--- Source: Section 3 (Multi-dimensional aggregation)
+-- Source: Section 4 (Multi-dimensional aggregation)
 
 SELECT region, category,
        SUM(amount) AS revenue

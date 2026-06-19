@@ -1,7 +1,7 @@
 -- JSON_TABLE: expand an array of objects into queryable rows -- one row per
 -- element, filtered like any table.
 -- Dialect: PostgreSQL
--- Source: Section 4 (JSON / JSONB)
+-- Source: Section 5 (JSON / JSONB)
 
 SELECT p.name, v.sku, v.color, v.stock
 FROM products p,

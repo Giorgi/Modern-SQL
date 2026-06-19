@@ -1,7 +1,7 @@
 -- System-versioned (temporal) table: two period columns + one switch, and the
 -- engine maintains a history table for you.
 -- Dialect: SQL Server (T-SQL). SQL:2011 SYSTEM_TIME; also in Db2, MariaDB.
--- Source: Section 5 (Temporal / time travel)
+-- Source: Section 6 (Temporal / time travel)
 
 CREATE TABLE dbo.orders (
     id          INT           NOT NULL PRIMARY KEY,

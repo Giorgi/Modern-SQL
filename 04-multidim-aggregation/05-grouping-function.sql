@@ -1,6 +1,6 @@
 -- GROUPING(): tell real NULLs apart from subtotal rows so you can label totals.
 -- Dialect: PostgreSQL
--- Source: Section 3 (Multi-dimensional aggregation)
+-- Source: Section 4 (Multi-dimensional aggregation)
 
 SELECT
   CASE WHEN GROUPING(region) = 1

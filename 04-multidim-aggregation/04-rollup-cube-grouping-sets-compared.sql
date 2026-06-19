@@ -1,6 +1,6 @@
 -- ROLLUP vs CUBE vs GROUPING SETS: same columns, three different intents.
 -- Dialect: PostgreSQL
--- Source: Section 3 (Multi-dimensional aggregation)
+-- Source: Section 4 (Multi-dimensional aggregation)
 
 -- the peel: (region, category), (region), ()
 GROUP BY ROLLUP (region, category);

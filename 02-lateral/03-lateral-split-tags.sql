@@ -1,7 +1,7 @@
 -- CROSS JOIN LATERAL with a set-returning function: split a CSV tag string
 -- into rows, then count purchases per tag.
 -- Dialect: PostgreSQL
--- Source: Section 1 (CTEs & LATERAL)
+-- Source: Section 2 (LATERAL)
 
 SELECT t.tag, COUNT(*) AS purchase_count
 FROM orders o

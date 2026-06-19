@@ -1,6 +1,6 @@
 -- Read a value: -> (jsonb), ->> (text), #> / #>> (path), [ ] (subscript).
 -- Dialect: PostgreSQL
--- Source: Section 4 (JSON / JSONB)
+-- Source: Section 5 (JSON / JSONB)
 
 SELECT
   specs ->  'cpu'            AS cpu,      -- jsonb

@@ -1,7 +1,7 @@
 -- Modify: subscript assignment sets & replaces (and auto-creates missing
 -- nested objects). jsonb_set is only needed for a path computed at runtime.
 -- Dialect: PostgreSQL
--- Source: Section 4 (JSON / JSONB)
+-- Source: Section 5 (JSON / JSONB)
 
 -- subscript assigns like a dict key
 UPDATE products

@@ -1,6 +1,6 @@
 -- Index it: pick the index for the query shape.
 -- Dialect: PostgreSQL
--- Source: Section 4 (JSON / JSONB)
+-- Source: Section 5 (JSON / JSONB)
 
 -- b-tree: filter / sort by one field  (=  <  >  range)
 CREATE INDEX ON products ((specs ->> 'cpu'));

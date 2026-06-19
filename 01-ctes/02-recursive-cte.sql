@@ -1,6 +1,6 @@
 -- Recursive CTE: walk a category tree to any depth in one query
 -- Dialect: PostgreSQL
--- Source: Section 1 (CTEs & LATERAL)
+-- Source: Section 1 (CTEs)
 
 WITH RECURSIVE category_tree AS (
     SELECT id, name, parent_id, 1 AS depth   -- anchor: where we start

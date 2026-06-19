@@ -1,6 +1,6 @@
 -- Recursive CTE: revenue across a whole subtree (Electronics + all descendants)
 -- Dialect: PostgreSQL
--- Source: Section 1 (CTEs & LATERAL)
+-- Source: Section 1 (CTEs)
 
 WITH RECURSIVE category_tree AS (
     SELECT id FROM categories WHERE name = 'Electronics'

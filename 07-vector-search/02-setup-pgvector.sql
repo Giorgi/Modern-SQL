@@ -1,7 +1,7 @@
 -- pgvector: an embedding is just a column on your existing table -- no
 -- separate datastore. Adds the vector type, distance operators, ANN indexes.
 -- Dialect: PostgreSQL + pgvector
--- Source: Section 6 (Vector search)
+-- Source: Section 7 (Vector search)
 
 CREATE EXTENSION IF NOT EXISTS vector;
 

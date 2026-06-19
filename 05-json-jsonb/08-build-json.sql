@@ -1,7 +1,7 @@
 -- The other direction: build JSON out of rows with jsonb_build_object and
 -- jsonb_agg -- your API payload, from SQL.
 -- Dialect: PostgreSQL
--- Source: Section 4 (JSON / JSONB)
+-- Source: Section 5 (JSON / JSONB)
 
 -- relational -> document: assemble a clean API payload
 SELECT jsonb_build_object(
