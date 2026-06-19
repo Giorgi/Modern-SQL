@@ -1,11 +1,9 @@
 # Modern SQL — Sample Queries
 
 Sample SQL extracted from the talk **"JOIN 'My Session' ON Modern = 'SQL'"**.
-One folder per topic, one `.sql` file per demo/query. Each file has a header
-comment with the demo name, SQL dialect, and the source section.
 
 Unless noted, queries target **PostgreSQL**. The temporal examples are
-**SQL Server (T-SQL)**, and the graph examples are **standard SQL/PGQ**.
+**SQL Server (T-SQL)**, and the graph examples are **SQL/PGQ** that requires **PostgreSQL 19**.
 
 ## Topics
 
@@ -20,8 +18,8 @@ Unless noted, queries target **PostgreSQL**. The temporal examples are
 | `07-vector-search` | pgvector: embeddings, distance operators, ANN indexes | beyond the standard |
 | `08-graph-queries-bonus` | SQL/PGQ property graphs & `GRAPH_TABLE` ("what's next") | SQL:2023 |
 
+
 ## Schema
 
-The queries reference the demo schema (`orders`, `customers`, `products`,
-`categories`, …). See `schema_sqlserver.sql` and the seed scripts in the
-parent folder.
+The queries reference the [demo schema](schema.txt) (`orders`, `customers`, `products`,
+`categories`, …). See `schema_sqlserver.sql` for the SQL Server schema
